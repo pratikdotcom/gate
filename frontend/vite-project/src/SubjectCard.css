@@ -1,0 +1,51 @@
+/* SubjectCard.css */
+.subject-card {
+    background: #333333; /* Dark grey background for subject cards */
+    border: 1px solid #444444; /* Slightly lighter border */
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px; /* Fixed width for consistency */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .subject-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Deeper shadow on hover */
+  }
+  
+  .subject-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff; /* White color for the subject name */
+    margin-bottom: 10px;
+  }
+  
+  .questions-solved {
+    font-size: 36px;
+    font-weight: bold;
+    color: #76c7c0; /* Teal color for the number of questions solved */
+  }
+  
+  button {
+    background-color: #6200ea; /* Purple button background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3700b3; /* Darker purple on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }
+  

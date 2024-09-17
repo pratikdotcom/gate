@@ -1,0 +1,75 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background for the entire page */
+  color: #e0e0e0; /* Light text color for readability */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #1e1e1e; /* Darker background for the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow for better contrast */
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.subject-card {
+  background: #333333; /* Dark grey background for subject cards */
+  border: 1px solid #444444; /* Slightly lighter border */
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px;
+  width: 200px; /* Fixed width for consistency */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.subject-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Deeper shadow on hover */
+}
+
+.subject-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.questions-solved {
+  font-size: 36px;
+  font-weight: bold;
+  color: #76c7c0; /* Teal color for the number */
+}
+
+button {
+  background-color: #6200ea; /* Purple button background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #3700b3; /* Darker purple on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+p {
+  text-align: center;
+  color: #ff0000; /* Red color for error messages */
+}
